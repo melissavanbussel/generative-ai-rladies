@@ -1,0 +1,9 @@
+create_chat_completion(
+  model = "gpt-4",
+  messages = list(
+    list(
+      "role" = "user",
+      "content" = "What word is missing from this sequence, and why? inch, chapel, elongate, ?, amaze, zebra, radius, user"
+    )
+  )
+)

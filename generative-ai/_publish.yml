@@ -1,0 +1,4 @@
+- source: ChatGPT_and_CoPilot.qmd
+  quarto-pub:
+    - id: 410d7b85-a4f6-4622-b6cb-3aba08f31614
+      url: 'https://melissavanbussel.quarto.pub/generative-ai-rladies'

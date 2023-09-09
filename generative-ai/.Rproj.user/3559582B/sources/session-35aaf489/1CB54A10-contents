@@ -1,0 +1,13 @@
+# Spelling and grammar will automatically be corrected in-line, and the results will also be printed to the console.
+
+
+# Create a scatterplot of the palmerpenguins dataset with bill length along the x-axis and bill depth along the y-axis, using ggplot
+
+# load the ggplot2 package
+library(ggplot2)
+
+# load the palmerpenguins package
+library(palmerpenguins)
+
+# create a scatterplot of the palmerpenguins dataset with bill length along the x-axis and bill depth along the y-axis, using ggplot
+ggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_mm)) + geom_point()
